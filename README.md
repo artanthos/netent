@@ -7,10 +7,9 @@ npm start
 ```
 
 Running ```npm start``` will start the app.
+Also, before it starts, it compiles the ES6 from ```./app``` into ```./dist``` and loads the app from there.
 
-```npm start``` compiles the ES6 from ```./app``` into ```./dist``` and loads the app from there.
-
-##### Bugs
+## Bugs
 
 If I use the endpoint -- which answers with a JSON -- there's a chance that not all slots will stop spinning.
 On the other hand, if I use a ```.json``` file, there is no bug, no matter how many spins.
